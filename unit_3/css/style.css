@@ -5,13 +5,12 @@
 
 * {margin:0;padding:0;box-sizing:border-box;}
 
-body  {		
+body  {
 	font-family: "Jura", Helvetica, sans-serif;
-	font-size: 20px; 
+	font-size: 20px;
 	color: #222222;
 	line-height: 1.4em;
 	text-align: center;
-
 }
 
 header	{
@@ -23,15 +22,21 @@ header	{
 section {
 	padding:5em 0;
 }
-
+.stones {
+    color: #000;
+}
+h1, h2 {
+	color:blue;
+}
 h1	{
-	color: #000;
-	height: 3em;
 	font-family: "Kadwa", serif;
 	font-weight: normal;
 	text-align: center;
 }
-
+h2  {
+	font-family: "Suez One", "times new roman", serif;
+	font-size: 2em;
+}
 a   {
 	color: inherit;
 	text-decoration: none;
@@ -48,18 +53,12 @@ nav a  {
 ol {
 	padding-left:1.25em;
 }
-h2  {
-	color: #000;
-	padding-right: 2em;
-	font-family: "Suez One", "times new roman", serif;
-	font-size: 2em;
-}
-
 p {
 	font-family: "Jura", Helvetica, sans-serif;
 	line-height: 1.4em;
-	max-width: 50ch;
-	text-align: center;
+	/* max-width: 50ch; */
+	margin: 1em auto;
+	text-align: left;
 }
 
 hr{
@@ -73,12 +72,14 @@ hr{
 ol {
 	line-height: 1.4em
 	font-size:2em;
+	/* width: 50ch; */
+	text-align: left;
+	margin: auto;
 }
 
 #couch {
 	background-color: #ffcce0;
-	border-bottom: 2em;
-
+	margin-bottom: 1em;
 }
 
 #steppingstones {
@@ -111,10 +112,14 @@ ol {
 	font-weight: bolder;
 }
 
-.sellpoint {
-	font-size: 1.5em
+/*.sellpoint {
+	font-size: 1.5em;
 	border-bottom:4em;
 	
-}
+} */
 
-
+/* css comment */
+/*
+<!-- html comment -->
+// js comment
+*/
